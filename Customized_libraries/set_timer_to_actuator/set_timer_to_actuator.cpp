@@ -15,7 +15,7 @@ bool SimpleTimer::isReady() {
 void SimpleTimer::setInterval_and_run(uint64_t interval, void do_this()) {
     _interval = interval;
     delay(interval);
-    do_this();
+    do_this(); 
 }
 
 void SimpleTimer::reset() {
